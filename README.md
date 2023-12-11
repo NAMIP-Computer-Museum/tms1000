@@ -3,7 +3,7 @@
 This project contains a curated list of resources related to the TMS 1000 early 4 bits microcontroller 
 for Texas Instruments and a number of devices, mostly handheld games from the 1970's and early 1980's
 
-Original material and specific utilities are also avalaible for specific
+With also original material/utilities/guides for specific devices such as the Little Professor
 
 ## TMS 1000 
 
