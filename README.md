@@ -7,6 +7,8 @@ With also original material/utilities/guides for specific devices such as the Li
 
 ![TMS1000 die](https://static.righto.com/images/tms1000-ram/tms-1000-labeled.jpg | width=300)
 
+<img src="https://static.righto.com/images/tms1000-ram/tms-1000-labeled.jpg" alt="TMS1000 die" width="300" height="300">
+
 ## TMS 1000 
 
 ### technical information
