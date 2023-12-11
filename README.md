@@ -5,7 +5,7 @@ for Texas Instruments and a number of devices, mostly handheld games from the 19
 
 With also original material/utilities/guides for specific devices such as the Little Professor
 
-[[https://static.righto.com/images/tms1000-ram/tms-1000-labeled.jpg]]
+![TMS1000 die](https://static.righto.com/images/tms1000-ram/tms-1000-labeled.jpg)
 
 ## TMS 1000 
 
