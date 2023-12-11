@@ -1,0 +1,1068 @@
+
+naken_util - by Michael Kohn
+                Joe Davisson
+    Web: http://www.mikekohn.net/
+  Email: mike@mikekohn.net
+
+Version: 
+
+Loaded bin ..\lilprof\tms0975nl_za0356 from 0x0000 to 0x03ff
+Type help for a list of commands.
+
+Linr Addr Opcode Instruction                              Cycles
+---- ---- ------ ----------------------------------       ------
+000  0/00: 4f    tcy 15                                   6
+001  0/01: 3c    ldx 0                                    6
+002  0/03: 20    tamiy                                    6
+003  0/07: 43    tcy 12                                   6
+004  0/0f: 32    sbit 1                                   6
+005  0/1f: 4d    tcy 11                                   6
+006  0/3f: 20    tamiy                                    6
+007  0/3e: 4f    tcy 15                                   6
+008  0/3d: 18    ldp 1                                    6
+009  0/3b: 2a    dman                                     6
+00a  0/37: b5    br 0x35  (linear_address=0x14)           6
+00b  0/2f: 43    tcy 12                                   6
+00c  0/1e: 3b    tbit1 3                                  6
+
+00d  0/3c: a7    br 0x27  (linear_address=0x10)           6
+00e  0/39: 80    br 0x00  (linear_address=0x00)           6
+00f  0/33: 09    knez                                     6
+010  0/27: 98    br 0x18  (linear_address=0x18)           6
+011  0/0e: 4d    tcy 11                                   6
+012  0/1d: 28    imac                                     6
+013  0/3a: 07    dan                                      6
+014  0/35: 7c    alec 3                                   6
+015  0/2b: be    br 0x3e  (linear_address=0x07)           6
+016  0/16: 36    rbit 1                                   6
+017  0/2c: 9f    br 0x1f  (linear_address=0x05)           6
+018  0/18: 43    tcy 12                                   6
+019  0/30: 3a    tbit1 1                                  6
+01a  0/21: 9f    br 0x1f  (linear_address=0x05)           6
+01b  0/02: 45    tcy 10                                   6
+01c  0/05: 08    tka                                      6
+01d  0/0b: 03    tam                                      6
+01e  0/17: 1e    ldp 7                                    6
+01f  0/2e: db    call 0x1b  (linear_address=0x26)         6
+020  0/1c: 09    knez                                     6
+021  0/38: a3    br 0x23  (linear_address=0x23)           6
+022  0/31: be    br 0x3e  (linear_address=0x07)           6
+023  0/23: 45    tcy 10                                   6
+024  0/06: 08    tka                                      6
+025  0/0d: 27    saman                                    6
+026  0/1b: 70    alec 0                                   6
+
+027  0/36: 9a    br 0x1a  (linear_address=0x29)           6
+028  0/2d: be    br 0x3e  (linear_address=0x07)           6
+029  0/1a: 3f    ldx 3                                    6
+02a  0/34: 2f    cla                                      6
+02b  0/29: 43    tcy 12                                   6
+02c  0/12: 07    dan                                      6
+02d  0/24: 50    ynec 0                                   6
+02e  0/08: 92    br 0x12  (linear_address=0x2c)           6
+02f  0/11: 1e    ldp 7                                    6
+030  0/22: ec    call 0x2c  (linear_address=0x17)         6
+031  0/04: 08    tka                                      6
+032  0/09: 0a    tdo                                      6
+033  0/13: 43    tcy 12                                   6
+034  0/26: 37    rbit 3                                   6
+035  0/0c: 32    sbit 1                                   6
+036  0/19: 4f    tcy 15                                   6
+037  0/32: 2e    xma                                      6
+038  0/25: 14    ldp 2                                    6
+039  0/0a: 3b    tbit1 3                                  6
+03a  0/15: 8e    br 0x0e  (linear_address=0x11)           6
+03b  0/2a: 70    alec 0                                   6
+03c  0/14: 97    br 0x17  (linear_address=0x1e)           6
+03d  0/28: 39    tbit1 2                                  6
+03e  0/10: 80    br 0x00  (linear_address=0x00)           6
+03f  0/20: 87    br 0x07  (linear_address=0x03)           6
+040  1/00: 3f    ldx 3                                    6
+041  1/01: 28    imac                                     6
+042  1/03: 79    alec 9                                   6
+043  1/07: bb    br 0x3b  (linear_address=0x09)           6
+044  1/0f: 2f    cla                                      6
+045  1/1f: 07    dan                                      6
+046  1/3f: 50    ynec 0                                   6
+047  1/3e: 81    br 0x01  (linear_address=0x01)           6
+048  1/3d: b7    br 0x37  (linear_address=0x0a)           6
+049  1/3b: 0e    ia                                       6
+04a  1/37: 0f    retn                                     6
+
+04b  1/2f: 50    ynec 0                                   6
+04c  1/1e: a7    br 0x27  (linear_address=0x10)           6
+04d  1/3c: 3c    ldx 0                                    6
+04e  1/39: 43    tcy 12                                   6
+04f  1/33: 33    sbit 3                                   6
+050  1/27: 6f    tcmiy 15                                 6
+051  1/0e: 0a    tdo                                      6
+052  1/1d: 1e    ldp 7                                    6
+053  1/3a: ec    call 0x2c  (linear_address=0x17)         6
+054  1/35: 03    tam                                      6
+055  1/2b: 0a    tdo                                      6
+056  1/16: 38    tbit1 0                                  6
+057  1/2c: 9c    br 0x1c  (linear_address=0x20)           6
+058  1/18: 3e    ldx 1                                    6
+059  1/30: c9    call 0x09  (linear_address=0x32)         6
+05a  1/21: 3c    ldx 0                                    6
+05b  1/02: 43    tcy 12                                   6
+05c  1/05: 3b    tbit1 3                                  6
+05d  1/0b: 9a    br 0x1a  (linear_address=0x29)           6
+05e  1/17: 41    tcy 8                                    6
+05f  1/2e: 86    br 0x06  (linear_address=0x24)           6
+060  1/1c: 3d    ldx 2                                    6
+061  1/38: c9    call 0x09  (linear_address=0x32)         6
+062  1/31: 98    br 0x18  (linear_address=0x18)           6
+063  1/23: 0d    setr                                     6
+064  1/06: a3    br 0x23  (linear_address=0x23)           6
+065  1/0d: 10    ldp 0                                    6
+066  1/1b: 7c    alec 3                                   6
+067  1/36: b3    br 0x33  (linear_address=0x0f)           6
+068  1/2d: be    br 0x3e  (linear_address=0x07)           6
+069  1/1a: 1e    ldp 7                                    6
+06a  1/34: ec    call 0x2c  (linear_address=0x17)         6
+06b  1/29: 23    tya                                      6
+06c  1/12: 7a    alec 5                                   6
+06d  1/24: 8d    br 0x0d  (linear_address=0x25)           6
+06e  1/08: 40    tcy 0                                    6
+06f  1/11: 0d    setr                                     6
+070  1/22: 8d    br 0x0d  (linear_address=0x25)           6
+071  1/04: 8d    br 0x0d  (linear_address=0x25)           6
+072  1/09: 47    tcy 14                                   6
+073  1/13: 81    br 0x01  (linear_address=0x01)           6
+074  1/26: 3f    ldx 3                                    6
+075  1/0c: 1f    ldp 15                                   6
+076  1/19: f7    call 0x37  (linear_address=0x0a)         6
+077  1/32: 3c    ldx 0                                    6
+078  1/25: 43    tcy 12                                   6
+079  1/0a: 31    sbit 2                                   6
+07a  1/15: 34    rbit 0                                   6
+07b  1/2a: 0f    retn                                     6
+
+07c  1/14: 1f    ldp 15                                   6
+07d  1/28: b5    br 0x35  (linear_address=0x14)           6
+07e  1/10: 00    comx                                     6
+07f  1/20: 00    comx                                     6
+080  2/00: 2e    xma                                      6
+081  2/01: 6f    tcmiy 15                                 6
+082  2/03: 2e    xma                                      6
+083  2/07: 78    alec 1                                   6
+084  2/0f: bb    br 0x3b  (linear_address=0x09)           6
+085  2/1f: 74    alec 2                                   6
+086  2/3f: bd    br 0x3d  (linear_address=0x08)           6
+087  2/3e: 64    tcmiy 2                                  6
+088  2/3d: 64    tcmiy 2                                  6
+089  2/3b: 6f    tcmiy 15                                 6
+08a  2/37: 25    amaac                                    6   ADD
+08b  2/2f: 43    tcy 12                                   6
+08c  2/1e: 1a    ldp 5                                    6
+08d  2/3c: 38    tbit1 0                                  6
+08e  2/39: 80    br 0x00  (linear_address=0x00)           6
+08f  2/33: 10    ldp 0                                    6
+090  2/27: 80    br 0x00  (linear_address=0x00)           6
+091  2/0e: 3f    ldx 3                                    6
+092  2/1d: 4e    tcy 7                                    6
+093  2/3a: 39    tbit1 2                                  6
+094  2/35: b3    br 0x33  (linear_address=0x0f)           6
+095  2/2b: 3c    ldx 0                                    6
+096  2/16: 43    tcy 12                                   6
+097  2/2c: 38    tbit1 0                                  6
+098  2/18: b3    br 0x33  (linear_address=0x0f)           6
+099  2/30: 68    tcmiy 1                                  6
+09a  2/21: 47    tcy 14                                   6
+09b  2/02: 2e    xma                                      6
+09c  2/05: 1f    ldp 15                                   6
+09d  2/0b: b5    br 0x35  (linear_address=0x14)           6
+09e  2/17: 3a    tbit1 1                                  6
+09f  2/2e: af    br 0x2f  (linear_address=0x0b)           6
+0a0  2/1c: 38    tbit1 0                                  6
+0a1  2/38: a9    br 0x29  (linear_address=0x2b)           6
+0a2  2/31: 43    tcy 12                                   6
+0a3  2/23: 39    tbit1 2                                  6
+0a4  2/06: 9b    br 0x1b  (linear_address=0x26)           6
+0a5  2/0d: b3    br 0x33  (linear_address=0x0f)           6
+0a6  2/1b: 2f    cla                                      6
+0a7  2/36: 35    rbit 2                                   6
+0a8  2/2d: 30    sbit 0                                   6
+0a9  2/1a: 16    ldp 6                                    6
+
+0aa  2/34: a1    br 0x21  (linear_address=0x1a)           6
+0ab  2/29: 2f    cla                                      6
+0ac  2/12: 62    tcmiy 4                                  6
+0ad  2/24: 0a    tdo                                      6
+0ae  2/08: 4e    tcy 7                                    6
+0af  2/11: 2c    dyn                                      6
+0b0  2/22: 91    br 0x11  (linear_address=0x2f)           6
+0b1  2/04: 4b    tcy 13                                   6
+0b2  2/09: 09    knez                                     6
+0b3  2/13: b2    br 0x32  (linear_address=0x37)           6
+0b4  2/26: 67    tcmiy 14                                 6
+0b5  2/0c: 74    alec 2                                   6
+0b6  2/19: 92    br 0x12  (linear_address=0x2c)           6
+0b7  2/32: 08    tka                                      6
+0b8  2/25: 03    tam                                      6
+0b9  2/0a: 0f    retn                                     6
+
+0ba  2/15: 4d    tcy 11                                   6
+0bb  2/2a: 1f    ldp 15                                   6
+0bc  2/14: f7    call 0x37  (linear_address=0x0a)         6
+0bd  2/28: 18    ldp 1                                    6
+0be  2/10: a6    br 0x26  (linear_address=0x34)           6
+0bf  2/20: 00    comx                                     6
+0c0  3/00: 4d    tcy 11                                   6
+0c1  3/01: 20    tamiy                                    6
+0c2  3/03: 45    tcy 10                                   6
+0c3  3/07: 20    tamiy                                    6
+0c4  3/0f: 4f    tcy 15                                   6
+0c5  3/1f: 21    tma                                      6
+0c6  3/3f: 03    tam                                      6
+0c7  3/3e: 37    rbit 3                                   6
+0c8  3/3d: 0a    tdo                                      6
+0c9  3/3b: 96    br 0x16  (linear_address=0x16)           6
+0ca  3/37: 03    tam                                      6
+0cb  3/2f: 24    tay                                      6
+0cc  3/1e: 58    ynec 1                                   6
+0cd  3/3c: ba    br 0x3a  (linear_address=0x13)           6
+0ce  3/39: 4f    tcy 15                                   6
+0cf  3/33: 21    tma                                      6
+0d0  3/27: d6    call 0x16  (linear_address=0x16)         6
+0d1  3/0e: 0a    tdo                                      6
+0d2  3/1d: a1    br 0x21  (linear_address=0x1a)           6
+0d3  3/3a: 0a    tdo                                      6
+0d4  3/35: 2f    cla                                      6
+0d5  3/2b: 66    tcmiy 6                                  6
+0d6  3/16: 44    tcy 2                                    6
+0d7  3/2c: 0d    setr                                     6
+0d8  3/18: ac    br 0x2c  (linear_address=0x17)           6
+0d9  3/30: 0f    retn                                     6
+
+0da  3/21: 2a    dman                                     6
+0db  3/02: b7    br 0x37  (linear_address=0x0a)           6
+0dc  3/05: 4d    tcy 11                                   6
+0dd  3/0b: 28    imac                                     6
+0de  3/17: 29    alem                                     6
+0df  3/2e: 6f    tcmiy 15                                 6
+0e0  3/1c: 8f    br 0x0f  (linear_address=0x04)           6
+0e1  3/38: 28    imac                                     6
+0e2  3/31: 03    tam                                      6
+0e3  3/23: 6f    tcmiy 15                                 6
+0e4  3/06: 8f    br 0x0f  (linear_address=0x04)           6
+0e5  3/0d: 4f    tcy 15                                   6
+0e6  3/1b: 21    tma                                      6
+0e7  3/36: d6    call 0x16  (linear_address=0x16)         6
+0e8  3/2d: 0a    tdo                                      6
+0e9  3/1a: 49    tcy 9                                    6
+0ea  3/34: 28    imac                                     6
+0eb  3/29: 03    tam                                      6
+0ec  3/12: 74    alec 2                                   6
+0ed  3/24: 95    br 0x15  (linear_address=0x3a)           6
+0ee  3/08: 20    tamiy                                    6
+0ef  3/11: 16    ldp 6                                    6
+0f0  3/22: c1    call 0x01  (linear_address=0x01)         6
+0f1  3/04: 22    tmy                                      6
+0f2  3/09: 3c    ldx 0                                    6
+0f3  3/13: 00    comx                                     6
+0f4  3/26: 23    tya                                      6
+0f5  3/0c: 00    comx                                     6
+0f6  3/19: 29    alem                                     6
+0f7  3/32: 93    br 0x13  (linear_address=0x33)           6
+0f8  3/25: 16    ldp 6                                    6
+0f9  3/0a: ad    br 0x2d  (linear_address=0x28)           6
+0fa  3/15: 10    ldp 0                                    6
+0fb  3/2a: 80    br 0x00  (linear_address=0x00)           6
+0fc  3/14: 00    comx                                     6
+0fd  3/28: 00    comx                                     6
+0fe  3/10: 00    comx                                     6
+0ff  3/20: 00    comx                                     6
+100  4/00: 34    rbit 0                                   6
+101  4/01: 4d    tcy 11                                   6
+102  4/03: 23    tya                                      6
+103  4/07: 79    alec 9                                   6
+104  4/0f: aa    br 0x2a  (linear_address=0x3b)           6
+105  4/1f: 46    tcy 6                                    6
+106  4/3f: 23    tya                                      6
+107  4/3e: 4f    tcy 15                                   6
+108  4/3d: 3c    ldx 0                                    6
+109  4/3b: 03    tam                                      6
+10a  4/37: 3f    ldx 3                                    6
+10b  4/2f: 1f    ldp 15                                   6
+10c  4/1e: fb    call 0x3b  (linear_address=0x09)         6
+10d  4/3c: 1f    ldp 15                                   6
+10e  4/39: f5    call 0x35  (linear_address=0x14)         6
+10f  4/33: 23    tya                                      6
+110  4/27: 40    tcy 0                                    6
+111  4/0e: 1e    ldp 7                                    6
+112  4/1d: 79    alec 9                                   6
+113  4/3a: 87    br 0x07  (linear_address=0x03)           6
+114  4/35: 80    br 0x00  (linear_address=0x00)           6
+115  4/2b: 4d    tcy 11                                   6
+116  4/16: 3c    ldx 0                                    6
+117  4/2c: 20    tamiy                                    6
+118  4/18: 4f    tcy 15                                   6
+119  4/30: 21    tma                                      6
+11a  4/21: 0a    tdo                                      6
+11b  4/02: 41    tcy 8                                    6
+11c  4/05: 0d    setr                                     6
+11d  4/0b: 85    br 0x05  (linear_address=0x1c)           6
+11e  4/17: 6e    tcmiy 7                                  6
+11f  4/2e: 03    tam                                      6
+120  4/1c: 0a    tdo                                      6
+121  4/38: 41    tcy 8                                    6
+122  4/31: 86    br 0x06  (linear_address=0x24)           6
+123  4/23: 0d    setr                                     6
+124  4/06: a3    br 0x23  (linear_address=0x23)           6
+125  4/0d: 4f    tcy 15                                   6
+126  4/1b: 2a    dman                                     6
+127  4/36: ae    br 0x2e  (linear_address=0x1f)           6
+128  4/2d: 4d    tcy 11                                   6
+129  4/1a: 28    imac                                     6
+12a  4/34: 29    alem                                     6
+12b  4/29: 6f    tcmiy 15                                 6
+12c  4/12: 98    br 0x18  (linear_address=0x18)           6
+12d  4/24: 28    imac                                     6
+12e  4/08: 03    tam                                      6
+12f  4/11: 6f    tcmiy 15                                 6
+130  4/22: 98    br 0x18  (linear_address=0x18)           6
+131  4/04: 0f    retn                                     6
+
+132  4/09: 1e    ldp 7                                    6
+133  4/13: ec    call 0x2c  (linear_address=0x17)         6
+134  4/26: 0a    tdo                                      6
+135  4/0c: 3f    ldx 3                                    6
+136  4/19: 4e    tcy 7                                    6
+137  4/32: 38    tbit1 0                                  6
+138  4/25: 80    br 0x00  (linear_address=0x00)           6
+139  4/0a: 10    ldp 0                                    6
+13a  4/15: 80    br 0x00  (linear_address=0x00)           6
+13b  4/2a: 44    tcy 2                                    6
+13c  4/14: 1f    ldp 15                                   6
+13d  4/28: eb    call 0x2b  (linear_address=0x15)         6
+13e  4/10: 11    ldp 8                                    6
+13f  4/20: 80    br 0x00  (linear_address=0x00)           6
+140  5/00: 40    tcy 0                                    6
+141  5/01: 2e    xma                                      6
+142  5/03: 2b    iyc                                      6
+143  5/07: 5c    ynec 3                                   6
+144  5/0f: 81    br 0x01  (linear_address=0x01)           6
+145  5/1f: 3f    ldx 3                                    6
+146  5/3f: 42    tcy 4                                    6
+147  5/3e: 22    tmy                                      6
+148  5/3d: 23    tya                                      6
+149  5/3b: 3c    ldx 0                                    6
+14a  5/37: 40    tcy 0                                    6
+14b  5/2f: 27    saman                                    6
+14c  5/1e: 3f    ldx 3                                    6
+14d  5/3c: 70    alec 0                                   6
+14e  5/39: 85    br 0x05  (linear_address=0x1c)           6
+14f  5/33: 16    ldp 6                                    6
+150  5/27: c1    call 0x01  (linear_address=0x01)         6
+151  5/0e: 3f    ldx 3                                    6
+152  5/1d: 4e    tcy 7                                    6
+153  5/3a: 31    sbit 2                                   6
+154  5/35: 30    sbit 0                                   6
+155  5/2b: 44    tcy 2                                    6
+156  5/16: 1f    ldp 15                                   6
+157  5/2c: eb    call 0x2b  (linear_address=0x15)         6
+158  5/18: 1c    ldp 3                                    6
+159  5/30: 80    br 0x00  (linear_address=0x00)           6
+15a  5/21: 35    rbit 2                                   6
+15b  5/02: 9b    br 0x1b  (linear_address=0x26)           6
+15c  5/05: 42    tcy 4                                    6
+15d  5/0b: 2a    dman                                     6
+15e  5/17: 84    br 0x04  (linear_address=0x31)           6
+15f  5/2e: 4e    tcy 7                                    6
+160  5/1c: 30    sbit 0                                   6
+161  5/38: 39    tbit1 2                                  6
+162  5/31: a1    br 0x21  (linear_address=0x1a)           6
+163  5/23: 46    tcy 6                                    6
+164  5/06: 28    imac                                     6
+165  5/0d: 03    tam                                      6
+166  5/1b: 4d    tcy 11                                   6
+167  5/36: 28    imac                                     6
+168  5/2d: 03    tam                                      6
+169  5/1a: 0f    retn                                     6
+
+16a  5/34: 3c    ldx 0                                    6
+16b  5/29: 49    tcy 9                                    6
+16c  5/12: 20    tamiy                                    6
+16d  5/24: 45    tcy 10                                   6
+16e  5/08: 20    tamiy                                    6
+16f  5/11: 12    ldp 4                                    6
+170  5/22: ab    br 0x2b  (linear_address=0x15)           6
+171  5/04: 03    tam                                      6
+172  5/09: 10    ldp 0                                    6
+173  5/13: 80    br 0x00  (linear_address=0x00)           6
+174  5/26: 18    ldp 1                                    6
+175  5/0c: c0    call 0x00  (linear_address=0x00)         6
+176  5/19: 3c    ldx 0                                    6
+177  5/32: 1e    ldp 7                                    6
+178  5/25: 50    ynec 0                                   6
+179  5/0a: bb    br 0x3b  (linear_address=0x09)           6
+17a  5/15: 43    tcy 12                                   6
+17b  5/2a: 20    tamiy                                    6
+17c  5/14: 18    ldp 1                                    6
+17d  5/28: b3    br 0x33  (linear_address=0x0f)           6
+17e  5/10: 00    comx                                     6
+17f  5/20: 00    comx                                     6
+180  6/00: 03    tam                                      6
+181  6/01: 44    tcy 2                                    6
+182  6/03: 3f    ldx 3                                    6
+183  6/07: 26    mnez                                     6
+184  6/0f: bd    br 0x3d  (linear_address=0x08)           6
+185  6/1f: 2c    dyn                                      6
+186  6/3f: 87    br 0x07  (linear_address=0x03)           6
+187  6/3e: 40    tcy 0                                    6
+188  6/3d: 21    tma                                      6
+189  6/3b: 42    tcy 4                                    6
+18a  6/37: 0e    ia                                       6
+18b  6/2f: 0f    retn                                     6
+
+18c  6/1e: 3c    ldx 0                                    6
+18d  6/3c: 4c    tcy 3                                    6
+18e  6/39: 67    tcmiy 14                                 6
+18f  6/33: 03    tam                                      6
+190  6/27: 68    tcmiy 1                                  6
+191  6/0e: 41    tcy 8                                    6
+192  6/1d: 26    mnez                                     6
+193  6/3a: ab    br 0x2b  (linear_address=0x15)           6
+194  6/35: 03    tam                                      6
+195  6/2b: 0f    retn                                     6
+
+196  6/16: 4a    tcy 5                                    6
+197  6/2c: dd    call 0x1d  (linear_address=0x12)         6
+198  6/18: 10    ldp 0                                    6
+199  6/30: 80    br 0x00  (linear_address=0x00)           6
+19a  6/21: 67    tcmiy 14                                 6
+19b  6/02: 4c    tcy 3                                    6
+19c  6/05: 29    alem                                     6
+19d  6/0b: 1f    ldp 15                                   6
+19e  6/17: eb    call 0x2b  (linear_address=0x15)         6
+19f  6/2e: 3f    ldx 3                                    6
+1a0  6/1c: 4e    tcy 7                                    6
+1a1  6/38: 39    tbit1 2                                  6
+1a2  6/31: 8d    br 0x0d  (linear_address=0x25)           6
+1a3  6/23: 11    ldp 8                                    6
+1a4  6/06: 80    br 0x00  (linear_address=0x00)           6
+1a5  6/0d: 20    tamiy                                    6
+1a6  6/1b: 12    ldp 4                                    6
+1a7  6/36: 80    br 0x00  (linear_address=0x00)           6
+1a8  6/2d: 18    ldp 1                                    6
+1a9  6/1a: f2    call 0x32  (linear_address=0x37)         6
+1aa  6/34: 3f    ldx 3                                    6
+1ab  6/29: 1a    ldp 5                                    6
+1ac  6/12: db    call 0x1b  (linear_address=0x26)         6
+1ad  6/24: 10    ldp 0                                    6
+1ae  6/08: 80    br 0x00  (linear_address=0x00)           6
+1af  6/11: 3c    ldx 0                                    6
+1b0  6/22: 4b    tcy 13                                   6
+1b1  6/04: 23    tya                                      6
+1b2  6/09: 74    alec 2                                   6
+1b3  6/13: 99    br 0x19  (linear_address=0x36)           6
+1b4  6/26: 1f    ldp 15                                   6
+1b5  6/0c: b4    br 0x34  (linear_address=0x2a)           6
+1b6  6/19: 1d    ldp 11                                   6
+1b7  6/32: f6    call 0x36  (linear_address=0x27)         6
+1b8  6/25: 17    ldp 14                                   6
+1b9  6/0a: e1    call 0x21  (linear_address=0x1a)         6
+1ba  6/15: 15    ldp 10                                   6
+1bb  6/2a: df    call 0x1f  (linear_address=0x05)         6
+1bc  6/14: 15    ldp 10                                   6
+1bd  6/28: 92    br 0x12  (linear_address=0x2c)           6
+1be  6/10: 00    comx                                     6
+1bf  6/20: 00    comx                                     6
+1c0  7/00: 20    tamiy                                    6
+1c1  7/01: 48    tcy 1                                    6
+1c2  7/03: 2d    cpaiz                                    6
+1c3  7/07: 03    tam                                      6
+1c4  7/0f: 4f    tcy 15                                   6
+1c5  7/1f: 20    tamiy                                    6
+1c6  7/3f: 21    tma                                      6
+1c7  7/3e: 46    tcy 6                                    6
+1c8  7/3d: 03    tam                                      6
+1c9  7/3b: 2f    cla                                      6
+1ca  7/37: 0a    tdo                                      6
+1cb  7/2f: 4e    tcy 7                                    6
+1cc  7/1e: 2c    dyn                                      6
+1cd  7/3c: 9e    br 0x1e  (linear_address=0x0c)           6
+1ce  7/39: 0f    retn                                     6
+
+1cf  7/33: 09    knez                                     6
+1d0  7/27: 8c    br 0x0c  (linear_address=0x35)           6
+1d1  7/0e: 45    tcy 10                                   6
+1d2  7/1d: 20    tamiy                                    6
+1d3  7/3a: 33    sbit 3                                   6
+1d4  7/35: 31    sbit 2                                   6
+1d5  7/2b: 12    ldp 4                                    6
+1d6  7/16: eb    call 0x2b  (linear_address=0x15)         6
+1d7  7/2c: 2f    cla                                      6
+1d8  7/18: 3c    ldx 0                                    6
+1d9  7/30: 6f    tcmiy 15                                 6
+1da  7/21: 41    tcy 8                                    6
+1db  7/02: 0d    setr                                     6
+1dc  7/05: 82    br 0x02  (linear_address=0x1b)           6
+1dd  7/0b: 6e    tcmiy 7                                  6
+1de  7/17: 0f    retn                                     6
+
+1df  7/2e: 45    tcy 10                                   6
+1e0  7/1c: 20    tamiy                                    6
+1e1  7/38: 2f    cla                                      6
+1e2  7/31: 0a    tdo                                      6
+1e3  7/23: ef    call 0x2f  (linear_address=0x0b)         6
+1e4  7/06: 09    knez                                     6
+1e5  7/0d: 8c    br 0x0c  (linear_address=0x35)           6
+1e6  7/1b: 4f    tcy 15                                   6
+1e7  7/36: 21    tma                                      6
+1e8  7/2d: 6f    tcmiy 15                                 6
+1e9  7/1a: ad    br 0x2d  (linear_address=0x28)           6
+1ea  7/34: 2c    dyn                                      6
+1eb  7/29: ad    br 0x2d  (linear_address=0x28)           6
+1ec  7/12: 0f    retn                                     6
+
+1ed  7/24: 45    tcy 10                                   6
+1ee  7/08: 28    imac                                     6
+1ef  7/11: 03    tam                                      6
+1f0  7/22: 6f    tcmiy 15                                 6
+1f1  7/04: b8    br 0x38  (linear_address=0x21)           6
+1f2  7/09: 47    tcy 14                                   6
+1f3  7/13: 1a    ldp 5                                    6
+1f4  7/26: a6    br 0x26  (linear_address=0x34)           6
+1f5  7/0c: 08    tka                                      6
+1f6  7/19: 24    tay                                      6
+1f7  7/32: 58    ynec 1                                   6
+1f8  7/25: 8e    br 0x0e  (linear_address=0x11)           6
+1f9  7/0a: db    call 0x1b  (linear_address=0x26)         6
+1fa  7/15: 08    tka                                      6
+1fb  7/2a: 24    tay                                      6
+1fc  7/14: 58    ynec 1                                   6
+1fd  7/28: 8e    br 0x0e  (linear_address=0x11)           6
+1fe  7/10: 14    ldp 2                                    6
+1ff  7/20: a9    br 0x29  (linear_address=0x2b)           6
+200  8/00: 17    ldp 14                                   6
+201  8/01: d2    call 0x12  (linear_address=0x2c)         6
+202  8/03: 1f    ldp 15                                   6
+203  8/07: e3    call 0x23  (linear_address=0x23)         6
+204  8/0f: 4a    tcy 5                                    6
+205  8/1f: 31    sbit 2                                   6
+206  8/3f: 3c    ldx 0                                    6
+207  8/3e: 47    tcy 14                                   6
+208  8/3d: 23    tya                                      6
+209  8/3b: 4b    tcy 13                                   6
+20a  8/37: 38    tbit1 0                                  6
+20b  8/2f: ae    br 0x2e  (linear_address=0x1f)           6
+20c  8/1e: 3a    tbit1 1                                  6
+20d  8/3c: 9a    br 0x1a  (linear_address=0x29)           6
+20e  8/39: 39    tbit1 2                                  6
+20f  8/33: 84    br 0x04  (linear_address=0x31)           6
+210  8/27: 3b    tbit1 3                                  6
+211  8/0e: ba    br 0x3a  (linear_address=0x13)           6
+212  8/1d: ae    br 0x2e  (linear_address=0x1f)           6
+213  8/3a: 3e    ldx 1                                    6
+214  8/35: 4a    tcy 5                                    6
+215  8/2b: 19    ldp 9                                    6
+216  8/16: 74    alec 2                                   6
+217  8/2c: 9c    br 0x1c  (linear_address=0x20)           6
+218  8/18: 7c    alec 3                                   6
+219  8/30: 8d    br 0x0d  (linear_address=0x25)           6
+21a  8/21: 11    ldp 8                                    6
+21b  8/02: 3a    tbit1 1                                  6
+21c  8/05: b2    br 0x32  (linear_address=0x37)           6
+21d  8/0b: 19    ldp 9                                    6
+21e  8/17: b9    br 0x39  (linear_address=0x0e)           6
+21f  8/2e: 3e    ldx 1                                    6
+220  8/1c: 4a    tcy 5                                    6
+221  8/38: 19    ldp 9                                    6
+222  8/31: 74    alec 2                                   6
+223  8/23: ba    br 0x3a  (linear_address=0x13)           6
+224  8/06: 7c    alec 3                                   6
+225  8/0d: 80    br 0x00  (linear_address=0x00)           6
+226  8/1b: 3a    tbit1 1                                  6
+227  8/36: bf    br 0x3f  (linear_address=0x06)           6
+228  8/2d: b4    br 0x34  (linear_address=0x2a)           6
+229  8/1a: 3e    ldx 1                                    6
+22a  8/34: 4a    tcy 5                                    6
+22b  8/29: 19    ldp 9                                    6
+22c  8/12: 74    alec 2                                   6
+22d  8/24: bf    br 0x3f  (linear_address=0x06)           6
+22e  8/08: 7c    alec 3                                   6
+22f  8/11: 8e    br 0x0e  (linear_address=0x11)           6
+230  8/22: bb    br 0x3b  (linear_address=0x09)           6
+231  8/04: 3e    ldx 1                                    6
+232  8/09: 4a    tcy 5                                    6
+233  8/13: 19    ldp 9                                    6
+234  8/26: 74    alec 2                                   6
+235  8/0c: 8b    br 0x0b  (linear_address=0x1d)           6
+236  8/19: 96    br 0x16  (linear_address=0x16)           6
+237  8/32: 1f    ldp 15                                   6
+238  8/25: ed    call 0x2d  (linear_address=0x28)         6
+239  8/0a: 40    tcy 0                                    6
+23a  8/15: 2f    cla                                      6
+23b  8/2a: 69    tcmiy 9                                  6
+23c  8/14: 07    dan                                      6
+23d  8/28: 1b    ldp 13                                   6
+23e  8/10: 80    br 0x00  (linear_address=0x00)           6
+23f  8/20: 00    comx                                     6
+240  9/00: 3a    tbit1 1                                  6
+241  9/01: bf    br 0x3f  (linear_address=0x06)           6
+242  9/03: 42    tcy 4                                    6
+243  9/07: e4    call 0x24  (linear_address=0x2d)         6
+244  9/0f: 1d    ldp 11                                   6
+245  9/1f: 8f    br 0x0f  (linear_address=0x04)           6
+246  9/3f: 48    tcy 1                                    6
+247  9/3e: c4    call 0x04  (linear_address=0x31)         6
+248  9/3d: 8f    br 0x0f  (linear_address=0x04)           6
+249  9/3b: 3a    tbit1 1                                  6
+24a  9/37: bf    br 0x3f  (linear_address=0x06)           6
+24b  9/2f: 4a    tcy 5                                    6
+24c  9/1e: e4    call 0x24  (linear_address=0x2d)         6
+24d  9/3c: 8f    br 0x0f  (linear_address=0x04)           6
+24e  9/39: 48    tcy 1                                    6
+24f  9/33: c4    call 0x04  (linear_address=0x31)         6
+250  9/27: a1    br 0x21  (linear_address=0x1a)           6
+251  9/0e: 3a    tbit1 1                                  6
+252  9/1d: bf    br 0x3f  (linear_address=0x06)           6
+253  9/3a: 46    tcy 6                                    6
+254  9/35: e4    call 0x24  (linear_address=0x2d)         6
+255  9/2b: 8f    br 0x0f  (linear_address=0x04)           6
+256  9/16: 7c    alec 3                                   6
+257  9/2c: bf    br 0x3f  (linear_address=0x06)           6
+258  9/18: 3a    tbit1 1                                  6
+259  9/30: bf    br 0x3f  (linear_address=0x06)           6
+25a  9/21: 49    tcy 9                                    6
+25b  9/02: e4    call 0x24  (linear_address=0x2d)         6
+25c  9/05: 8f    br 0x0f  (linear_address=0x04)           6
+25d  9/0b: 4a    tcy 5                                    6
+25e  9/17: c4    call 0x04  (linear_address=0x31)         6
+25f  9/2e: 8f    br 0x0f  (linear_address=0x04)           6
+260  9/1c: 2f    cla                                      6
+261  9/38: 68    tcmiy 1                                  6
+262  9/31: 44    tcy 2                                    6
+263  9/23: 03    tam                                      6
+264  9/06: 8f    br 0x0f  (linear_address=0x04)           6
+265  9/0d: 4c    tcy 3                                    6
+266  9/1b: c4    call 0x04  (linear_address=0x31)         6
+267  9/36: 44    tcy 2                                    6
+268  9/2d: e4    call 0x24  (linear_address=0x2d)         6
+269  9/1a: 8f    br 0x0f  (linear_address=0x04)           6
+26a  9/34: 4c    tcy 3                                    6
+26b  9/29: e4    call 0x24  (linear_address=0x2d)         6
+26c  9/12: 8f    br 0x0f  (linear_address=0x04)           6
+26d  9/24: 21    tma                                      6
+26e  9/08: 40    tcy 0                                    6
+26f  9/11: 07    dan                                      6
+270  9/22: 0f    retn                                     6
+
+271  9/04: 21    tma                                      6
+272  9/09: 48    tcy 1                                    6
+273  9/13: 07    dan                                      6
+274  9/26: 0f    retn                                     6
+
+275  9/0c: 00    comx                                     6
+276  9/19: 00    comx                                     6
+277  9/32: 00    comx                                     6
+278  9/25: 00    comx                                     6
+279  9/0a: 00    comx                                     6
+27a  9/15: 00    comx                                     6
+27b  9/2a: 00    comx                                     6
+27c  9/14: 00    comx                                     6
+27d  9/28: 00    comx                                     6
+27e  9/10: 00    comx                                     6
+27f  9/20: 00    comx                                     6
+280  a/00: 53    ynec 12                                  6
+281  a/01: bf    br 0x3f  (linear_address=0x06)           6
+282  a/03: 0f    retn                                     6
+
+283  a/07: 17    ldp 14                                   6
+284  a/0f: c0    call 0x00  (linear_address=0x00)         6
+285  a/1f: 40    tcy 0                                    6
+286  a/3f: 23    tya                                      6
+287  a/3e: 01    a8aac                                    6
+288  a/3d: 03    tam                                      6
+289  a/3b: 01    a8aac                                    6
+28a  a/37: 2b    iyc                                      6
+28b  a/2f: 54    ynec 2                                   6
+28c  a/1e: 80    br 0x00  (linear_address=0x00)           6
+28d  a/3c: 0f    retn                                     6
+
+28e  a/39: 17    ldp 14                                   6
+28f  a/33: ca    call 0x0a  (linear_address=0x39)         6
+290  a/27: 11    ldp 8                                    6
+291  a/0e: 83    br 0x03  (linear_address=0x02)           6
+292  a/1d: 41    tcy 8                                    6
+293  a/3a: bf    br 0x3f  (linear_address=0x06)           6
+294  a/35: 3e    ldx 1                                    6
+295  a/2b: 4a    tcy 5                                    6
+296  a/16: 2f    cla                                      6
+297  a/2c: 03    tam                                      6
+298  a/18: 17    ldp 14                                   6
+299  a/30: fe    call 0x3e  (linear_address=0x07)         6
+29a  a/21: df    call 0x1f  (linear_address=0x05)         6
+29b  a/02: 3e    ldx 1                                    6
+29c  a/05: dd    call 0x1d  (linear_address=0x12)         6
+29d  a/0b: 3c    ldx 0                                    6
+29e  a/17: 47    tcy 14                                   6
+29f  a/2e: 23    tya                                      6
+2a0  a/1c: 78    alec 1                                   6
+2a1  a/38: b4    br 0x34  (linear_address=0x2a)           6
+2a2  a/31: 16    ldp 6                                    6
+2a3  a/23: 74    alec 2                                   6
+2a4  a/06: 91    br 0x11  (linear_address=0x2f)           6
+2a5  a/0d: 1d    ldp 11                                   6
+2a6  a/1b: 7c    alec 3                                   6
+2a7  a/36: 80    br 0x00  (linear_address=0x00)           6
+2a8  a/2d: 1b    ldp 13                                   6
+2a9  a/1a: ab    br 0x2b  (linear_address=0x15)           6
+2aa  a/34: 1d    ldp 11                                   6
+2ab  a/29: f6    call 0x36  (linear_address=0x27)         6
+2ac  a/12: 3e    ldx 1                                    6
+2ad  a/24: 4a    tcy 5                                    6
+2ae  a/08: 2f    cla                                      6
+2af  a/11: 03    tam                                      6
+2b0  a/22: 49    tcy 9                                    6
+2b1  a/04: 23    tya                                      6
+2b2  a/09: 41    tcy 8                                    6
+2b3  a/13: 3c    ldx 0                                    6
+2b4  a/26: 03    tam                                      6
+2b5  a/0c: 3e    ldx 1                                    6
+2b6  a/19: 23    tya                                      6
+2b7  a/32: 3c    ldx 0                                    6
+2b8  a/25: 4e    tcy 7                                    6
+2b9  a/0a: 03    tam                                      6
+2ba  a/15: 1b    ldp 13                                   6
+2bb  a/2a: 93    br 0x13  (linear_address=0x33)           6
+2bc  a/14: 00    comx                                     6
+2bd  a/28: 00    comx                                     6
+2be  a/10: 00    comx                                     6
+2bf  a/20: 00    comx                                     6
+2c0  b/00: 3e    ldx 1                                    6
+2c1  b/01: ca    call 0x0a  (linear_address=0x39)         6
+2c2  b/03: 3d    ldx 2                                    6
+2c3  b/07: ca    call 0x0a  (linear_address=0x39)         6
+2c4  b/0f: 1f    ldp 15                                   6
+2c5  b/1f: ed    call 0x2d  (linear_address=0x28)         6
+2c6  b/3f: 3d    ldx 2                                    6
+2c7  b/3e: 40    tcy 0                                    6
+2c8  b/3d: 2a    dman                                     6
+2c9  b/3b: 98    br 0x18  (linear_address=0x18)           6
+2ca  b/37: 42    tcy 4                                    6
+2cb  b/2f: 28    imac                                     6
+2cc  b/1e: 74    alec 2                                   6
+2cd  b/3c: 82    br 0x02  (linear_address=0x1b)           6
+2ce  b/39: 2f    cla                                      6
+2cf  b/33: 07    dan                                      6
+2d0  b/27: 3e    ldx 1                                    6
+2d1  b/0e: 39    tbit1 2                                  6
+2d2  b/1d: b1    br 0x31  (linear_address=0x22)           6
+2d3  b/3a: 1b    ldp 13                                   6
+2d4  b/35: 38    tbit1 0                                  6
+2d5  b/2b: b8    br 0x38  (linear_address=0x21)           6
+2d6  b/16: 15    ldp 10                                   6
+2d7  b/2c: 92    br 0x12  (linear_address=0x2c)           6
+2d8  b/18: 03    tam                                      6
+2d9  b/30: f6    call 0x36  (linear_address=0x27)         6
+2da  b/21: bf    br 0x3f  (linear_address=0x06)           6
+2db  b/02: 03    tam                                      6
+2dc  b/05: 13    ldp 12                                   6
+2dd  b/0b: c0    call 0x00  (linear_address=0x00)         6
+2de  b/17: 3f    ldx 3                                    6
+2df  b/2e: 13    ldp 12                                   6
+2e0  b/1c: c0    call 0x00  (linear_address=0x00)         6
+2e1  b/38: bf    br 0x3f  (linear_address=0x06)           6
+2e2  b/31: 15    ldp 10                                   6
+2e3  b/23: 3a    tbit1 1                                  6
+2e4  b/06: b5    br 0x35  (linear_address=0x14)           6
+2e5  b/0d: 32    sbit 1                                   6
+2e6  b/1b: 87    br 0x07  (linear_address=0x03)           6
+2e7  b/36: 2f    cla                                      6
+2e8  b/2d: 40    tcy 0                                    6
+2e9  b/1a: 3e    ldx 1                                    6
+2ea  b/34: 25    amaac                                    6  ADD
+2eb  b/29: 3f    ldx 3                                    6
+2ec  b/12: 25    amaac                                    6  ADD
+2ed  b/24: a2    br 0x22  (linear_address=0x30)           6
+2ee  b/08: 79    alec 9                                   6
+2ef  b/11: b2    br 0x32  (linear_address=0x37)           6
+2f0  b/22: 66    tcmiy 6                                  6  BCD fix ?
+2f1  b/04: 0e    ia                                       6
+2f2  b/09: 68    tcmiy 1                                  6
+2f3  b/13: 2b    iyc                                      6
+2f4  b/26: 52    ynec 4                                   6
+2f5  b/0c: 9a    br 0x1a  (linear_address=0x29)           6
+2f6  b/19: 0f    retn                                     6
+
+2f7  b/32: 0e    ia                                       6
+2f8  b/25: 93    br 0x13  (linear_address=0x33)           6
+2f9  b/0a: 40    tcy 0                                    6
+2fa  b/15: 2f    cla                                      6
+2fb  b/2a: 2e    xma                                      6
+2fc  b/14: 2b    iyc                                      6
+2fd  b/28: 52    ynec 4                                   6
+2fe  b/10: aa    br 0x2a  (linear_address=0x3b)           6
+2ff  b/20: 0f    retn                                     6
+300  c/00: 4c    tcy 3                                    6
+301  c/01: 2f    cla                                      6
+302  c/03: 2e    xma                                      6
+303  c/07: 2c    dyn                                      6
+304  c/0f: 83    br 0x03  (linear_address=0x02)           6
+305  c/1f: 0f    retn                                     6
+
+306  c/3f: 1f    ldp 15                                   6
+307  c/3e: db    call 0x1b  (linear_address=0x26)         6
+308  c/3d: e4    call 0x24  (linear_address=0x2d)         6
+309  c/3b: 70    alec 0                                   6
+30a  c/37: a1    br 0x21  (linear_address=0x1a)           6
+30b  c/2f: 1d    ldp 11                                   6
+30c  c/1e: f6    call 0x36  (linear_address=0x27)         6
+30d  c/3c: 3e    ldx 1                                    6
+30e  c/39: c0    call 0x00  (linear_address=0x00)         6
+30f  c/33: e4    call 0x24  (linear_address=0x2d)         6
+310  c/27: 70    alec 0                                   6
+311  c/0e: ae    br 0x2e  (linear_address=0x1f)           6
+312  c/1d: 40    tcy 0                                    6
+313  c/3a: 3d    ldx 2                                    6
+314  c/35: 2a    dman                                     6
+315  c/2b: 86    br 0x06  (linear_address=0x24)           6
+316  c/16: 65    tcmiy 10                                 6
+317  c/2c: 07    dan                                      6
+318  c/18: 13    ldp 12                                   6
+319  c/30: b5    br 0x35  (linear_address=0x14)           6
+31a  c/21: 48    tcy 1                                    6
+31b  c/02: 3d    ldx 2                                    6
+31c  c/05: 28    imac                                     6
+31d  c/0b: 03    tam                                      6
+31e  c/17: bd    br 0x3d  (linear_address=0x08)           6
+31f  c/2e: 40    tcy 0                                    6
+320  c/1c: 3d    ldx 2                                    6
+321  c/38: 28    imac                                     6
+322  c/31: 03    tam                                      6
+323  c/23: b3    br 0x33  (linear_address=0x0f)           6
+324  c/06: 03    tam                                      6
+325  c/0d: 17    ldp 14                                   6
+326  c/1b: f9    call 0x39  (linear_address=0x0e)         6
+327  c/36: 17    ldp 14                                   6
+328  c/2d: ca    call 0x0a  (linear_address=0x39)         6
+329  c/1a: 1d    ldp 11                                   6
+32a  c/34: 8f    br 0x0f  (linear_address=0x04)           6
+32b  c/29: 17    ldp 14                                   6
+32c  c/12: e1    call 0x21  (linear_address=0x1a)         6
+32d  c/24: 2f    cla                                      6
+32e  c/08: 40    tcy 0                                    6
+32f  c/11: 3e    ldx 1                                    6
+330  c/22: 25    amaac                                    6  ADD
+331  c/04: 3f    ldx 3                                    6
+332  c/09: 27    saman                                    6
+333  c/13: a8    br 0x28  (linear_address=0x3d)           6
+334  c/26: 65    tcmiy 10                                 6
+335  c/0c: 0e    ia                                       6
+336  c/19: 68    tcmiy 1                                  6
+337  c/32: 2b    iyc                                      6
+338  c/25: 52    ynec 4                                   6
+339  c/0a: 91    br 0x11  (linear_address=0x2f)           6
+33a  c/15: 0f    retn                                     6
+33b  c/2a: 15    ldp 10                                   6
+33c  c/14: 92    br 0x12  (linear_address=0x2c)           6
+33d  c/28: 0e    ia                                       6
+33e  c/10: b2    br 0x32  (linear_address=0x37)           6
+33f  c/20: 00    comx                                     6
+340  d/00: 03    tam                                      6
+341  d/01: 3e    ldx 1                                    6
+342  d/03: 15    ldp 10                                   6
+343  d/07: dd    call 0x1d  (linear_address=0x12)         6
+344  d/0f: 40    tcy 0                                    6
+345  d/1f: 28    imac                                     6
+346  d/3f: 79    alec 9                                   6
+347  d/3e: 9e    br 0x1e  (linear_address=0x0c)           6
+348  d/3d: 2f    cla                                      6
+349  d/3b: 07    dan                                      6
+34a  d/37: 1b    ldp 13                                   6
+34b  d/2f: 9f    br 0x1f  (linear_address=0x05)           6
+34c  d/1e: 03    tam                                      6
+34d  d/3c: 0f    retn                                     6
+
+34e  d/39: cf    call 0x0f  (linear_address=0x04)         6
+34f  d/33: 15    ldp 10                                   6
+350  d/27: df    call 0x1f  (linear_address=0x05)         6
+351  d/0e: 1d    ldp 11                                   6
+352  d/1d: ca    call 0x0a  (linear_address=0x39)         6
+353  d/3a: 13    ldp 12                                   6
+354  d/35: bf    br 0x3f  (linear_address=0x06)           6
+355  d/2b: 4b    tcy 13                                   6
+356  d/16: 3b    tbit1 3                                  6
+357  d/2c: 84    br 0x04  (linear_address=0x31)           6
+358  d/18: 3e    ldx 1                                    6
+359  d/30: cf    call 0x0f  (linear_address=0x04)         6
+35a  d/21: 15    ldp 10                                   6
+35b  d/02: df    call 0x1f  (linear_address=0x05)         6
+35c  d/05: 3e    ldx 1                                    6
+35d  d/0b: 4a    tcy 5                                    6
+35e  d/17: 30    sbit 0                                   6
+35f  d/2e: 1d    ldp 11                                   6
+360  d/1c: 80    br 0x00  (linear_address=0x00)           6
+361  d/38: 15    ldp 10                                   6
+362  d/31: dd    call 0x1d  (linear_address=0x12)         6
+363  d/23: 3d    ldx 2                                    6
+364  d/06: 15    ldp 10                                   6
+365  d/0d: dd    call 0x1d  (linear_address=0x12)         6
+366  d/1b: 17    ldp 14                                   6
+367  d/36: e3    call 0x23  (linear_address=0x23)         6
+368  d/2d: 17    ldp 14                                   6
+369  d/1a: f9    call 0x39  (linear_address=0x0e)         6
+36a  d/34: 15    ldp 10                                   6
+36b  d/29: df    call 0x1f  (linear_address=0x05)         6
+36c  d/12: 3d    ldx 2                                    6
+36d  d/24: 15    ldp 10                                   6
+36e  d/08: df    call 0x1f  (linear_address=0x05)         6
+36f  d/11: 15    ldp 10                                   6
+370  d/22: 92    br 0x12  (linear_address=0x2c)           6
+371  d/04: 3d    ldx 2                                    6
+372  d/09: b0    br 0x30  (linear_address=0x19)           6
+373  d/13: 49    tcy 9                                    6
+374  d/26: 3d    ldx 2                                    6
+375  d/0c: 23    tya                                      6
+376  d/19: 3c    ldx 0                                    6
+377  d/32: 4a    tcy 5                                    6
+378  d/25: 03    tam                                      6
+379  d/0a: 3d    ldx 2                                    6
+37a  d/15: 41    tcy 8                                    6
+37b  d/2a: 23    tya                                      6
+37c  d/14: 3c    ldx 0                                    6
+37d  d/28: 42    tcy 4                                    6
+37e  d/10: 16    ldp 6                                    6
+37f  d/20: 80    br 0x00  (linear_address=0x00)           6
+380  e/00: 42    tcy 4                                    6
+381  e/01: 3f    ldx 3                                    6
+382  e/03: 23    tya                                      6
+383  e/07: 3e    ldx 1                                    6
+384  e/0f: 29    alem                                     6
+385  e/1f: 81    br 0x01  (linear_address=0x01)           6
+386  e/3f: 0f    retn                                     6
+
+387  e/3e: 42    tcy 4                                    6
+388  e/3d: 3f    ldx 3                                    6
+389  e/3b: 23    tya                                      6
+38a  e/37: 3d    ldx 2                                    6
+38b  e/2f: 29    alem                                     6
+38c  e/1e: bd    br 0x3d  (linear_address=0x08)           6
+38d  e/3c: 0f    retn                                     6
+
+38e  e/39: 42    tcy 4                                    6
+38f  e/33: 3e    ldx 1                                    6
+390  e/27: 23    tya                                      6
+391  e/0e: 3d    ldx 2                                    6
+392  e/1d: 2e    xma                                      6
+393  e/3a: 3e    ldx 1                                    6
+394  e/35: 29    alem                                     6
+395  e/2b: ac    br 0x2c  (linear_address=0x17)           6
+396  e/16: 0f    retn                                     6
+
+397  e/2c: 5e    ynec 7                                   6
+398  e/18: b3    br 0x33  (linear_address=0x0f)           6
+399  e/30: 0f    retn                                     6
+
+39a  e/21: 42    tcy 4                                    6
+39b  e/02: 3e    ldx 1                                    6
+39c  e/05: 23    tya                                      6
+39d  e/0b: 3f    ldx 3                                    6
+39e  e/17: 2e    xma                                      6
+39f  e/2e: 3e    ldx 1                                    6
+3a0  e/1c: 29    alem                                     6
+3a1  e/38: 82    br 0x02  (linear_address=0x1b)           6
+3a2  e/31: 0f    retn                                     6
+
+3a3  e/23: 42    tcy 4                                    6
+3a4  e/06: 3d    ldx 2                                    6
+3a5  e/0d: 23    tya                                      6
+3a6  e/1b: 3f    ldx 3                                    6
+3a7  e/36: 2e    xma                                      6
+3a8  e/2d: 3d    ldx 2                                    6
+3a9  e/1a: 29    alem                                     6
+3aa  e/34: 86    br 0x06  (linear_address=0x24)           6
+3ab  e/29: 0f    retn                                     6
+
+3ac  e/12: 3e    ldx 1                                    6
+3ad  e/24: 47    tcy 14                                   6
+3ae  e/08: 23    tya                                      6
+3af  e/11: 3d    ldx 2                                    6
+3b0  e/22: 48    tcy 1                                    6
+3b1  e/04: 03    tam                                      6
+3b2  e/09: 3e    ldx 1                                    6
+3b3  e/13: 4f    tcy 15                                   6
+3b4  e/26: 23    tya                                      6
+3b5  e/0c: 40    tcy 0                                    6
+3b6  e/19: 3d    ldx 2                                    6
+3b7  e/32: 03    tam                                      6
+3b8  e/25: 0f    retn                                     6
+
+3b9  e/0a: 3d    ldx 2                                    6
+3ba  e/15: 47    tcy 14                                   6
+3bb  e/2a: 23    tya                                      6
+3bc  e/14: 48    tcy 1                                    6
+3bd  e/28: 03    tam                                      6
+3be  e/10: 93    br 0x13  (linear_address=0x33)           6
+3bf  e/20: 00    comx                                     6
+3c0  f/00: 2f    cla                                      6
+3c1  f/01: 0f    retn                                     6
+
+3c2  f/03: 3e    ldx 1                                    6
+3c3  f/07: fb    call 0x3b  (linear_address=0x09)         6
+3c4  f/0f: 3d    ldx 2                                    6
+3c5  f/1f: fb    call 0x3b  (linear_address=0x09)         6
+3c6  f/3f: 3f    ldx 3                                    6
+3c7  f/3e: fb    call 0x3b  (linear_address=0x09)         6
+3c8  f/3d: 3c    ldx 0                                    6
+3c9  f/3b: 4f    tcy 15                                   6
+3ca  f/37: 2f    cla                                      6
+3cb  f/2f: 29    alem                                     6
+3cc  f/1e: af    br 0x2f  (linear_address=0x0b)           6
+3cd  f/3c: 0f    retn                                     6
+
+3ce  f/39: 47    tcy 14                                   6
+3cf  f/33: 30    sbit 0                                   6
+3d0  f/27: 14    ldp 2                                    6
+3d1  f/0e: e9    call 0x29  (linear_address=0x2b)         6
+3d2  f/1d: 43    tcy 12                                   6
+3d3  f/3a: 31    sbit 2                                   6
+3d4  f/35: 41    tcy 8                                    6
+3d5  f/2b: 2f    cla                                      6
+3d6  f/16: 3c    ldx 0                                    6
+3d7  f/2c: 6f    tcmiy 15                                 6
+3d8  f/18: 29    alem                                     6
+3d9  f/30: 98    br 0x18  (linear_address=0x18)           6
+3da  f/21: 47    tcy 14                                   6
+3db  f/02: 23    tya                                      6
+3dc  f/05: 46    tcy 6                                    6
+3dd  f/0b: 69    tcmiy 9                                  6
+3de  f/17: 03    tam                                      6
+3df  f/2e: 4f    tcy 15                                   6
+3e0  f/1c: 0f    retn                                     6
+
+3e1  f/38: 10    ldp 0                                    6
+3e2  f/31: 80    br 0x00  (linear_address=0x00)           6
+3e3  f/23: 3e    ldx 1                                    6
+3e4  f/06: 42    tcy 4                                    6
+3e5  f/0d: b7    br 0x37  (linear_address=0x0a)           6
+3e6  f/1b: 3d    ldx 2                                    6
+3e7  f/36: 86    br 0x06  (linear_address=0x24)           6
+3e8  f/2d: 3f    ldx 3                                    6
+3e9  f/1a: 86    br 0x06  (linear_address=0x24)           6
+3ea  f/34: 48    tcy 1                                    6
+3eb  f/29: 3d    ldx 2                                    6
+3ec  f/12: 23    tya                                      6
+3ed  f/24: 3e    ldx 1                                    6
+3ee  f/08: 06    a6aac                                    6
+3ef  f/11: 8c    br 0x0c  (linear_address=0x35)           6
+3f0  f/22: 49    tcy 9                                    6
+3f1  f/04: 17    ldp 14                                   6
+3f2  f/09: f3    call 0x33  (linear_address=0x0f)         6
+3f3  f/13: 13    ldp 12                                   6
+3f4  f/26: a4    br 0x24  (linear_address=0x2d)           6
+3f5  f/0c: 27    saman                                    6
+3f6  f/19: 70    alec 0                                   6
+3f7  f/32: 95    br 0x15  (linear_address=0x3a)           6
+3f8  f/25: 13    ldp 12                                   6
+3f9  f/0a: a9    br 0x29  (linear_address=0x2b)           6
+3fa  f/15: 2c    dyn                                      6
+3fb  f/2a: 5f    ynec 15                                  6
+3fc  f/14: a9    br 0x29  (linear_address=0x2b)           6
+3fd  f/28: a5    br 0x25  (linear_address=0x38)           6
+3fe  f/10: 00    comx                                     6
+3ff  f/20: 00    comx                                     6
