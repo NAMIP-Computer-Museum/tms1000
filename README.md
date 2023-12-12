@@ -36,7 +36,7 @@ Source: <a href="https://www.righto.com/2020/11/">Ken Shirriff</a>
 
 ## Little Professor
 
-### history
+### History
 
 * wikipedia - https://en.wikipedia.org/wiki/Little_Professor
 * How the Little Professor Almost Launched an Army of Educational Professors - https://padandpixel.com/how-the-little-professor-almost-launched-an-army-of-educational-professors/
@@ -44,11 +44,37 @@ Source: <a href="https://www.righto.com/2020/11/">Ken Shirriff</a>
 
 ### Big Professor
 
+TO UPDATE
+
 ### MIT App Inventor
 
-## Merlin
+TO UPDATE
+
+## Merlin (and Master Merlin)
+
+### History
+
+* wikipedia https://en.wikipedia.org/wiki/Merlin_(console)
+* A Nostalgic Look Back at Merlin The Electronic Wizard Game https://www.worldcollectorsnet.com/articles/a-nostalgic-look-back-merlin-electronic-wizard-game
+* The Electronic Wizard: Remembering MERLIN (Parker Bros; 1978) https://flashbak.com/the-electronic-wizard-remembering-merlin-parker-bros-1978-363874
+
+### Technical information
+
+Manuals in Merlin directory
 
 ## Dataman
+
+### History
+
+### Technical information
+
+* wikipedia https://en.wikipedia.org/wiki/Dataman
+* The many Histories of DataMan https://romchip.org/index.php/romchip-journal/article/view/154
+
+### Technical information
+
+* patent https://patents.google.com/patent/US4340374A (also in DataMan subdirectory)
+* datamath http://www.datamath.org/Edu/DataMan.htm
 
 ## Licence
 
