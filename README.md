@@ -50,6 +50,7 @@ Source: <a href="https://www.righto.com/2020/11/">Ken Shirriff</a>
 
 ### MIT App Inventor (contributed)
 
+* app inventor project permalink https://gallery.appinventor.mit.edu/?galleryid=e7948368-f020-4d3b-a362-2e1b589711bc
 * on play store https://play.google.com/store/apps/details?id=appinventor.ai_sarah_ponlard.LittleProf&hl=fr&pli=1
 
 ## Merlin (and Master Merlin)
