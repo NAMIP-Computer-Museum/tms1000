@@ -10,7 +10,13 @@ Source: <a href="https://www.righto.com/2020/11/">Ken Shirriff</a>
 
 ## TMS 1000 
 
-### technical information
+### History
+
+* wikipedia - https://en.wikipedia.org/wiki/Texas_Instruments_TMS1000
+* The TMS1000: The First Commercially Available Microcontroller - https://hackaday.com/2020/02/18/the-tms1000-the-first-commercially-available-microcontroller/
+* history - part 2 - https://www.eejournal.com/article/a-history-of-early-microcontrollers-part-2-the-texas-instruments-tms1000/
+
+### Technical information
 
 * User manual (1976) - https://archive.org/details/bitsavers_tiTMS1000TualDec76_3193454
 * Patent US3991305A - https://patents.google.com/patent/US3991305A/en
@@ -19,18 +25,12 @@ Source: <a href="https://www.righto.com/2020/11/">Ken Shirriff</a>
 * various die shots and ROM disasemblies by Sean Riddle
   * specific info on TMS 1000 ROM bits https://www.seanriddle.com/tms1000bits.txt
 
-### TMS 1000 history
-
-* wikipedia - https://en.wikipedia.org/wiki/Texas_Instruments_TMS1000
-* The TMS1000: The First Commercially Available Microcontroller - https://hackaday.com/2020/02/18/the-tms1000-the-first-commercially-available-microcontroller/
-* history - part 2 - https://www.eejournal.com/article/a-history-of-early-microcontrollers-part-2-the-texas-instruments-tms1000/
-
-### TMS 1000 emulation
+### Emulation
 
 * MAME - https://github.com/mamedev/mame/tree/master/src/devices/cpu/tms1000
 * another emulator - https://github.com/hotkeysoft/emulators/tree/main/TMS1000
 
-### other utilities
+### Other utilities
 
 * assembler/disassembler - naken (GPL v3) -https://www.mikekohn.net/micro/naken_asm.php
 
@@ -42,13 +42,15 @@ Source: <a href="https://www.righto.com/2020/11/">Ken Shirriff</a>
 * How the Little Professor Almost Launched an Army of Educational Professors - https://padandpixel.com/how-the-little-professor-almost-launched-an-army-of-educational-professors/
 * What Texas Instruments’ Little Professor Can Teach Us And why the iconic children’s calculator deserves a place in a museum - https://spectrum.ieee.org/texas-instruments-calculator
 
-### Big Professor
+### Big Professor (contributed)
 
-TO UPDATE
+* building instructions
+* STL files (work in progress)
+* arduino code
 
-### MIT App Inventor
+### MIT App Inventor (contributed)
 
-TO UPDATE
+* on play store https://play.google.com/store/apps/details?id=appinventor.ai_sarah_ponlard.LittleProf&hl=fr&pli=1
 
 ## Merlin (and Master Merlin)
 
@@ -62,11 +64,9 @@ TO UPDATE
 
 Manuals in Merlin directory
 
-## Dataman
+## DataMan
 
 ### History
-
-### Technical information
 
 * wikipedia https://en.wikipedia.org/wiki/Dataman
 * The many Histories of DataMan https://romchip.org/index.php/romchip-journal/article/view/154
