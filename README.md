@@ -19,6 +19,7 @@ Source: <a href="https://www.righto.com/2020/11/">Ken Shirriff</a>
 ### Technical information
 
 * User manual (1976) - https://archive.org/details/bitsavers_tiTMS1000TualDec76_3193454
+* Programmer manuel (1975) - https://en.wikichip.org/w/images/f/ff/TMS1000_Series_Programmer%27s_reference_manual.pdf
 * Patent US3991305A - https://patents.google.com/patent/US3991305A/en
 * TMS 1000 family at datamath - http://www.datamath.org/Chips/TMS1000.htm
 * Reverse engineering RAM storage in early Texas Instruments calculator chips by Ken Shirriff - http://www.righto.com/2020/11/
